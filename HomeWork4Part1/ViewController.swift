@@ -8,13 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    welcomeLabel.text = "Привіт, друже!"
     }
-
-    @IBOutlet weak var imageView: UILabel!
     
-}
-
+    @IBOutlet weak var dowloadTap: UIButton!
+    
+    @IBAction func buttonTap(_ sender: Any) {
+        
+    }
+    
+   
+       }
+       
